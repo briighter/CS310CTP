@@ -31,5 +31,18 @@ public class JukeboxTest {
 		 adelesTracks = adele.getAdelesSongs();
 		 assertEquals(3, adelesTracks.size());
 	}
-	
+	@Test
+	public void testGetUshersAlbumSize() throws NoSuchFieldException, SecurityException { // Added by William Leischner
+		 Usher usher = new Usher();
+		 ArrayList<Song> UshersTracks = new ArrayList<Song>();
+		 UshersTracks = usher.getUshersSongs();
+		 assertEquals(3, UshersTracks.size());
+	}
+	@Test
+	public void testGetKeithSweatsAlbumSize() throws NoSuchFieldException, SecurityException { // Added by William Leischner
+		 Keith_Sweat keithsweat = new Keith_Sweat();
+		 ArrayList<Song> KeithSweatsTracks = new ArrayList<Song>();
+		 KeithSweatsTracks = keithsweat.getKeithSweatsSongs();
+		 assertEquals(2, KeithSweatsTracks.size());
+	}
 }
