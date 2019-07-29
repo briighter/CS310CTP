@@ -11,7 +11,7 @@ public class Usher {
     public Usher() {
     }
     
-    public ArrayList<Song> getUshersSongs() {
+    public ArrayList<Song> getUshersSongs() {                                   // Added by William Leischner
     	
     	 albumTracks = new ArrayList<Song>();                                   //Instantiate the album so we can populate it below
     	 Song track1 = new Song("OMG", "Usher");                                //Create a song

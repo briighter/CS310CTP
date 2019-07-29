@@ -30,7 +30,7 @@ public class StudentTest {
 		assertEquals("TestStudent2Name", studentNames.get(1));							//test case to see if the second value contains the name we expect
 	}
 	@Test
-	public void testGetStudentNameList3() {
+	public void testGetStudentNameList3() {                                             //Added by William Leischner
 		List<String> studentNames = new ArrayList<String>();							//create variable for student list of names
 		StudentList studentList = new StudentList();									//instantiate the StudentList object so we can access it's methods and properties
 		studentNames = studentList.getStudentsNames();									//populate the studentNames list with the actual values in the StudentsList object

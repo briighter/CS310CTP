@@ -11,7 +11,7 @@ public class Keith_Sweat {
     public Keith_Sweat() {
     }
     
-    public ArrayList<Song> getKeithSweatsSongs() {
+    public ArrayList<Song> getKeithSweatsSongs() {                              // Added by William Leischner
     	
     	 albumTracks = new ArrayList<Song>();                                   //Instantiate the album so we can populate it below
     	 Song track1 = new Song("Twisted", "Keith Sweat");                      //Create a song
