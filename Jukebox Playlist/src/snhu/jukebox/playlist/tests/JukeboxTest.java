@@ -32,4 +32,22 @@ public class JukeboxTest {
 		 assertEquals(3, adelesTracks.size());
 	}
 	
+	@Test
+	public void testGetNasAlbumSize() throws NoSuchFieldException, SecurityException {
+		Nas nas = new Nas();
+		ArrayList<Song> NasTracks = new ArrayList<Song>();
+		NasTracks = nas.getNasSongs();
+		assertEquals(2, NasTracks.size());
+	
+	}
+
+	@Test
+	public void testGetBobMarleyAlbumSize() throws NoSuchFieldException, SecurityException {
+		BobMarley bobmarley = new BobMarley();
+		ArrayList<Song> bobmarleyTracks = new ArrayList<Song>();
+		bobmarleyTracks = bobmarley.getBobMarleySongs();
+		assertEquals(4, bobmarleyTracks.size());
+	
+	}
+	
 }
