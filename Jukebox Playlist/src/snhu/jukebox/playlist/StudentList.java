@@ -25,6 +25,9 @@ public class StudentList {
 		//String StudentName3 = "TestStudent3Name";
 		//studentNames.add(StudentName3);
 		
+		String StudentName3 = "TedTippets";									// add my name to student3 to list
+		studentNames.add(StudentName3);										// add student name array 3
+		
 		return studentNames;
 	}
 
