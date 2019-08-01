@@ -12,7 +12,7 @@ public class Usher {
     }
     
     public ArrayList<Song> getUshersSongs() {
-    	                                                                        //By William Leischner
+    	                                                                        // By William Leischner
     	 albumTracks = new ArrayList<Song>();                                   //Instantiate the album so we can populate it below
     	 Song track1 = new Song("OMG", "Usher");                                //Create a song
          Song track2 = new Song("U Got It Bad", "Usher");                       //Create another song
