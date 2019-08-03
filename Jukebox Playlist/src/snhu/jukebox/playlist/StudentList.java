@@ -20,10 +20,10 @@ public class StudentList {
 		studentNames.add(StudentName2);
 		
 		//Module 5 Code Assignment
-		//Add your name to create a new student profile
-		//Use template below and put your name in the areas of 'StudentName'
-		//String StudentName3 = "TestStudent3Name";
-		//studentNames.add(StudentName3);
+		//A new student named "Ryan Sampson" is added to the studentNames ArrayList
+		//Provided template was used
+		String RyanSampson = "Ryan Sampson";
+		studentNames.add(RyanSampson);
 		
 		return studentNames;
 	}
