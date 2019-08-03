@@ -31,5 +31,19 @@ public class JukeboxTest {
 		 adelesTracks = adele.getAdelesSongs();
 		 assertEquals(3, adelesTracks.size());
 	}
+
+	@Test
+	public void testGetExcisionsSongs() throws SecurityException {
+		Excision excision = new Excision(); // Instantiate Excision class
+		excision.getSongs().forEach(song -> assertNotNull("One of the songs for Excision is null", song)); // Ensure there are no null songs
+		assertTrue("There are no songs for Excision",excision.getSongs().size() > 0); // Ensure that the artist has at least one song
+	}
+
+	@Test
+	public void testGetTheGorillazSongs() throws SecurityException {
+		TheGorillaz gorillaz = new TheGorillaz(); // Instantiate Excision class
+		gorillaz.getSongs().forEach(song -> assertNotNull("One of the songs for The Gorillaz is null", song)); // Ensure there are no null songs
+		assertTrue("There are no songs for The Gorillaz",gorillaz.getSongs().size() > 0); // Ensure that the artist has at least one song
+	}
 	
 }
