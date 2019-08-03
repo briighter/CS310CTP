@@ -19,9 +19,7 @@ public class StudentList {
 		String StudentName2 = "TestStudent2Name";
 		studentNames.add(StudentName2);
 		
-		//Module 5 Code Assignment
 		//Added my own name to the playlist. 
-		
 		String StudentName3 = "Adam Diamond";
 		studentNames.add(StudentName3); 
 		

@@ -36,7 +36,7 @@ public class StudentTest {
 		List<String> studentNames = new ArrayList<String>();							//create variable for student list of names
 		StudentList studentList = new StudentList();									//instantiate the StudentList object so we can access it's methods and properties
 		studentNames = studentList.getStudentsNames();									//populate the studentNames list with the actual values in the StudentsList object
-		assertEquals("Adam Diamond", studentNames.get(2));							//test case for pass/fail. We expect the first name to be TestStudent1Name. Remember arrays start their count at 0 not 1.
+		assertEquals("Adam Diamond", studentNames.get(2));							//test case for pass/fail. We expect the first name to be Adam Diamond. Remember arrays start their count at 0 not 1.
 	}
 	
 	

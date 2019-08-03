@@ -32,4 +32,22 @@ public class JukeboxTest {
 		 assertEquals(3, adelesTracks.size());
 	}
 	
+	//Added Test for new Portico Quartet artist
+	@Test
+	public void testGetPorticoQuartetAlbumSize() throws NoSuchFieldException, SecurityException {
+		 PorticoQuartet porticoQuartetBand = new PorticoQuartet();
+		 ArrayList<Song> porticoQuartetTracks = new ArrayList<Song>();
+		 porticoQuartetTracks = porticoQuartetBand.getPorticoSongs();
+		 assertEquals(2, porticoQuartetTracks.size());
+	}
+	
+	//Added Test for new Beach Fossils artist.
+	@Test
+	public void testGetBeachFossilsAlbumSize() throws NoSuchFieldException, SecurityException {
+		 BeachFossils beachFossilsBand = new BeachFossils();
+		 ArrayList<Song> beachFossilsTracks = new ArrayList<Song>();
+		 beachFossilsTracks = beachFossilsBand.getBeachSongs();
+		 assertEquals(2, beachFossilsTracks.size());
+	}
+	
 }
