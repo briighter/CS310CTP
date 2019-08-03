@@ -18,12 +18,9 @@ public class StudentList {
 		
 		String StudentName2 = "TestStudent2Name";
 		studentNames.add(StudentName2);
-		
-		//Module 5 Code Assignment
-		//Add your name to create a new student profile
-		//Use template below and put your name in the areas of 'StudentName'
-		//String StudentName3 = "TestStudent3Name";
-		//studentNames.add(StudentName3);
+
+		// Add Shea Rogers to the student names list
+		studentNames.add("Shea Rogers");
 		
 		return studentNames;
 	}
@@ -41,9 +38,11 @@ public class StudentList {
 			   TestStudent2_Playlist testStudent2Playlist = new TestStudent2_Playlist();
 			   Student TestStudent2 = new Student("TestStudent2", testStudent2Playlist.StudentPlaylist());
 			   return TestStudent2;
-			   
-			   
-		   //Module 6 Code Assignment - Add your own case statement for your profile. Use the above case statements as a template.
+
+			// Module 6 changes
+			case "SheaRogers_Playlist":
+				SheaRogers_Playlist sheaRogers_playlist = new SheaRogers_Playlist(); // Instantiate a new playlist
+				return new Student("Shea Rogers", sheaRogers_playlist.StudentPlaylist()); // Return a new student
 
 		}
 		return emptyStudent;

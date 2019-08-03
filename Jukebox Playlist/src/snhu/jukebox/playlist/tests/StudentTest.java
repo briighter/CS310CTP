@@ -31,10 +31,17 @@ public class StudentTest {
 	}
 	
 	//Module 5 - Add your unit test case here to check for your name after you have added it to the StudentList
-	
-	
-	
-	
+
+	@Test
+	public void testGetStudentNameListSheaRogers() {
+		StudentList studentList = new StudentList(); //instantiate the StudentList object so we can access it's methods and properties
+		List<String> studentNames = studentList.getStudentsNames(); // Get all student names
+		// Made this more generic to avoid issues with the index changing in the future. indexOf will return -1 if it cannot find the name.
+		assertNotEquals(-1, studentNames.indexOf("Shea Rogers")); // Test to ensure that Shea Rogers is in the student list
+	}
+
+
+
 	//Module 6 Test Case Area
 	//Test each student profile to ensure it can be retrieved and accessed
 	@Test
@@ -50,7 +57,12 @@ public class StudentTest {
 		Student TestStudent2 = new Student("TestStudent2", testStudent2Playlist.StudentPlaylist());
 		assertEquals("TestStudent2", TestStudent2.getName());
 	}
-	
-	//Module 6 - Add your unit test case here to check for your profile after you have added it to the StudentList
+
+	@Test
+	public void testGetSheaRogersProfile() {
+		SheaRogers_Playlist sheaRogers_playlist = new SheaRogers_Playlist(); // Create student playlist
+		Student sheaRogers = new Student("Shea Rogers", sheaRogers_playlist.StudentPlaylist()); // Create student
+		assertEquals("Shea Rogers", sheaRogers.getName()); // Ensure student name returns correctly
+	}
 	
 }
