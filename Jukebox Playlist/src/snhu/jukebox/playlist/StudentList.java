@@ -39,11 +39,6 @@ public class StudentList {
 			   Student TestStudent2 = new Student("TestStudent2", testStudent2Playlist.StudentPlaylist());
 			   return TestStudent2;
 
-			// Module 6 changes
-			case "SheaRogers_Playlist":
-				SheaRogers_Playlist sheaRogers_playlist = new SheaRogers_Playlist(); // Instantiate a new playlist
-				return new Student("Shea Rogers", sheaRogers_playlist.StudentPlaylist()); // Return a new student
-
 		}
 		return emptyStudent;
 	}

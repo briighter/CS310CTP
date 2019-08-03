@@ -58,11 +58,6 @@ public class StudentTest {
 		assertEquals("TestStudent2", TestStudent2.getName());
 	}
 
-	@Test
-	public void testGetSheaRogersProfile() {
-		SheaRogers_Playlist sheaRogers_playlist = new SheaRogers_Playlist(); // Create student playlist
-		Student sheaRogers = new Student("Shea Rogers", sheaRogers_playlist.StudentPlaylist()); // Create student
-		assertEquals("Shea Rogers", sheaRogers.getName()); // Ensure student name returns correctly
-	}
+	//Module 6 - Add your unit test case here to check for your profile after you have added it to the StudentList
 	
 }
