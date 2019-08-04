@@ -38,5 +38,11 @@ public class JukeboxTest {
 		 chrisStapletonTracks = chrisStapleton.getChrisStapletonSongs();
 		 assertEquals(4, chrisStapletonTracks.size());
 	}
-	
+	@Test
+	public void testGetLinkinParkAlbumSize() throws NoSuchFieldException, SecurityException {
+		 LinkinPark linkinPark = new LinkinPark();
+		 ArrayList<Song> linkinParkTracks = new ArrayList<Song>();
+		 linkinParkTracks = linkinPark.getLinkinParkSongs();
+		 assertEquals(5, linkinParkTracks.size());
+	}
 }
