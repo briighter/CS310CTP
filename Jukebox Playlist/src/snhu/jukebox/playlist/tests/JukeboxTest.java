@@ -32,4 +32,20 @@ public class JukeboxTest {
 		 assertEquals(3, adelesTracks.size());
 	}
 	
+	@Test
+	public void testGetTriviumAlbumSize() throws NoSuchFieldException, SecurityException {
+		 Trivium trivium = new Trivium();
+		 ArrayList<Song> triviumTracks = new ArrayList<Song>();
+		 triviumTracks = trivium.getTriviumSongs();
+		 assertEquals(3, triviumTracks.size());
+	}
+	
+	@Test
+	public void testGetIPrevailAlbumsize() throws NoSuchFieldException, SecurityException {
+		 IPrevail iprevail = new IPrevail();
+		 ArrayList<Song> iprevailTracks = new ArrayList<Song>();
+		 iprevailTracks = iprevail.getIPrevailSongs();
+		 assertEquals(2, iprevailTracks.size());
+	}
+	
 }
