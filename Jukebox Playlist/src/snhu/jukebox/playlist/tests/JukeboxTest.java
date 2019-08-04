@@ -31,5 +31,12 @@ public class JukeboxTest {
 		 adelesTracks = adele.getAdelesSongs();
 		 assertEquals(3, adelesTracks.size());
 	}
+	@Test
+	public void testGetChrisStapletonAlbumSize() throws NoSuchFieldException, SecurityException {
+		 ChrisStapleton chrisStapleton = new ChrisStapleton();
+		 ArrayList<Song> chrisStapletonTracks = new ArrayList<Song>();
+		 chrisStapletonTracks = chrisStapleton.getChrisStapletonSongs();
+		 assertEquals(4, chrisStapletonTracks.size());
+	}
 	
 }
