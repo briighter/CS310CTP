@@ -32,4 +32,23 @@ public class JukeboxTest {
 		 assertEquals(3, adelesTracks.size());
 	}
 	
+	/*
+	 * testGetMetallicasAlbumSize() and testGetQueensAlbumSize() added in module 5
+	 * by Ryan Sampson to test the album sizes for these two newly added artists.
+	 */
+	@Test
+	public void testGetMetallicasAlbumSize() throws NoSuchFieldException, SecurityException {
+		 Metallica metallica = new Metallica();
+		 ArrayList<Song> metallicaTracks = new ArrayList<Song>();
+		 metallicaTracks = metallica.getMetallicasSongs();
+		 assertEquals(5, metallicaTracks.size());
+	}
+	
+	@Test
+	public void testGetQueensAlbumSize() throws NoSuchFieldException, SecurityException {
+		 Queen queen = new Queen();
+		 ArrayList<Song> queensTracks = new ArrayList<Song>();
+		 queensTracks = queen.getQueensSongs();
+		 assertEquals(3, queensTracks.size());
+	}
 }
