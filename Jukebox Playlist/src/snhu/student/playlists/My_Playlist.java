@@ -10,6 +10,7 @@ public class My_Playlist {
     
 	public LinkedList<PlayableSong> StudentPlaylist(){
 	
+	// build the playlist by first adding the avicii songs to it
 	LinkedList<PlayableSong> playlist = new LinkedList<PlayableSong>();
 	ArrayList<Song> aviciiTracks = new ArrayList<Song>();
     Avicii avici = new Avicii();
@@ -22,6 +23,7 @@ public class My_Playlist {
 	playlist.add(aviciiTracks.get(3));
 	playlist.add(aviciiTracks.get(4));
 	
+	// adding tiesto songs to the playlist
 	ArrayList<Song> tiestoTracks = new ArrayList<Song>();
     Tiesto tiesto = new Tiesto();
 	

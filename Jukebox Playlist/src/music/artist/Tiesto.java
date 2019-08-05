@@ -12,7 +12,7 @@ public class Tiesto {
     }
     
     public ArrayList<Song> getTiestoSongs() {
-    	
+    	//Populating the album with five of tiesto's songs 
     	 albumTracks = new ArrayList<Song>();
     	 	Song track1 = new Song("Wasted", "Tiesto");
         Song track2 = new Song("Red Lights", "Tiesto");

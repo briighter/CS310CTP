@@ -12,7 +12,7 @@ public class Avicii {
     }
     
     public ArrayList<Song> getAviciiSongs() {
-    	
+    	//Populating the album with five of tiesto's songs
     	 albumTracks = new ArrayList<Song>();
     	 	Song track1 = new Song("Wake Me Up", "Avicii");
         Song track2 = new Song("Levels", "Avicii");
