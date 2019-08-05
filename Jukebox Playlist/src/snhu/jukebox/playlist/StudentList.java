@@ -22,8 +22,8 @@ public class StudentList {
 		//Module 5 Code Assignment
 		//Add your name to create a new student profile
 		//Use template below and put your name in the areas of 'StudentName'
-		//String StudentName3 = "TestStudent3Name";
-		//studentNames.add(StudentName3);
+		String StudentName3 = "Bilal Elezi";
+		studentNames.add(StudentName3);
 		
 		return studentNames;
 	}
@@ -42,8 +42,14 @@ public class StudentList {
 			   Student TestStudent2 = new Student("TestStudent2", testStudent2Playlist.StudentPlaylist());
 			   return TestStudent2;
 			   
-			   
+		   
 		   //Module 6 Code Assignment - Add your own case statement for your profile. Use the above case statements as a template.
+			
+			   //Added case for my name and my playlist
+		   case "Bilal":
+			   My_Playlist Bilal_Playlist = new My_Playlist();
+			   Student MyProf = new Student("Bilal Elezi", Bilal_Playlist.StudentPlaylist());
+			   return MyProf;
 
 		}
 		return emptyStudent;
