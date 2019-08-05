@@ -22,8 +22,8 @@ public class StudentList {
 		//Module 5 Code Assignment
 		//Add your name to create a new student profile
 		//Use template below and put your name in the areas of 'StudentName'
-		//String StudentName3 = "TestStudent3Name";
-		//studentNames.add(StudentName3);
+		String CourtneyGliszczynski = "Courtney Gliszczynski";
+		studentNames.add(CourtneyGliszczynski);
 		
 		return studentNames;
 	}
