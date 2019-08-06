@@ -53,4 +53,10 @@ public class StudentTest {
 	
 	//Module 6 - Add your unit test case here to check for your profile after you have added it to the StudentList
 	
+	@Test
+	public void MiguelOvallesProfile() {
+		MiguelOvalles_Playlist MiguelOvalles_playlist = new MiguelOvalles_Playlist();						//instantiating the variable for MiguelOvalles
+		Student MiguelOvalles = new Student("MiguelOvalles", MiguelOvalles_Playlist.StudentPlaylist());		//creating populated student object for MiguelOvalles
+		assertEquals("MiguelOvalles", MiguelOvalles.getName());												//test case pass/fail line - Checking for correct student name.	
+	}
 }
