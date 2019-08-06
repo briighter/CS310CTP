@@ -20,16 +20,17 @@ public class MiguelOvalles_Playlist {
 	playlist.add(NasTracks.get(1));
 	
 	
-    BobMarley BobMarleyBand = new BobMarley();
+    BobMarley BobMarley = new BobMarley();
 	ArrayList<Song> BobMarleyTracks = new ArrayList<Song>();
-    BobMarleyTracks = BobMarley.getBobMarleySongs();
+    BobMarleyTracks = BobMarley.getImagineDragonsSongs();
 	
 	playlist.add(BobMarleyTracks.get(0));
 	playlist.add(BobMarleyTracks.get(1));
 	playlist.add(BobMarleyTracks.get(2));
 	
 	
-    Usher UsherBand = new Usher();
+	
+    Usher Usher = new Usher();
 	ArrayList<Song> UsherTracks = new ArrayList<Song>();
     UsherTracks = Usher.getUsherSongs();
 	
