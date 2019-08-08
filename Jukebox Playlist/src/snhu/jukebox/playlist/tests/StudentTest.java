@@ -52,5 +52,11 @@ public class StudentTest {
 	}
 	
 	//Module 6 - Add your unit test case here to check for your profile after you have added it to the StudentList
-	
+	@Test
+	public void testGetStudent3Profile() {
+		TedTippets_Playlist tedtippetsPlaylist = new TedTippets_Playlist();							//initializing the variable for a Ted Tippets
+		Student tedtippets = new Student("TedTippets", tedtippetsPlaylist.StudentPlaylist());		//creates the ted tippets student object
+		assertEquals("TedTippets", tedtippets.getName());											// test case pass/fail line 
+ 
+	}
 }

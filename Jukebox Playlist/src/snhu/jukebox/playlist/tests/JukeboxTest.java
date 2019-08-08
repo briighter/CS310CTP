@@ -13,7 +13,7 @@ public class JukeboxTest {
 		 TheBeatles theBeatlesBand = new TheBeatles();
 		 ArrayList<Song> beatlesTracks = new ArrayList<Song>();
 		 beatlesTracks = theBeatlesBand.getBeatlesSongs();
-		 assertEquals(2, beatlesTracks.size());
+		 assertEquals(3, beatlesTracks.size());
 	}
 	
 	@Test
@@ -32,4 +32,11 @@ public class JukeboxTest {
 		 assertEquals(3, adelesTracks.size());
 	}
 	
+	@Test
+	public void testGetEminemAlbumSize() throws NoSuchFieldException, SecurityException {
+		 Eminem eminem = new Eminem();
+		 ArrayList<Song> eminemTracks = new ArrayList<Song>();
+		 eminemTracks = eminem.getEminemSongs();
+		 assertEquals(5, eminemTracks.size());
+	}
 }
