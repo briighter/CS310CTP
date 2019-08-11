@@ -39,6 +39,15 @@ public class StudentTest {
 		assertEquals("Ryan Sampson", studentNames.get(2));							//test case to see if the second value contains the name we expect
 	}
 	
+	//Module 5 - Add your unit test case here to check for your name after you have added it to the StudentList
+	@Test
+	public void testGetStudentNameList4() {
+		List<String> studentNames = new ArrayList<String>();							//create variable for student list of names
+		StudentList studentList = new StudentList();									//instantiate the StudentList object so we can access it's methods and properties
+		studentNames = studentList.getStudentsNames();									//populate the studentNames list with the actual values in the StudentsList object
+		assertEquals("Justin Rooks", studentNames.get(3));							    //test case to see if the second value contains the name we expect
+	}
+	
 	
 	
 	//Module 6 Test Case Area
@@ -58,5 +67,11 @@ public class StudentTest {
 	}
 	
 	//Module 6 - Add your unit test case here to check for your profile after you have added it to the StudentList
+	@Test
+	public void testGetStudent3Profile() {
+		JustinRooks_Playlist testStudent3Playlist = new JustinRooks_Playlist();
+		Student JustinRooks = new Student("JustinRooks", testStudent3Playlist.StudentPlaylist());
+		assertEquals("JustinRooks", JustinRooks.getName());
+	}
 	
 }
