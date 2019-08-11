@@ -57,7 +57,7 @@ public class StudentTest {
 		TestStudent2_Playlist testStudent2Playlist = new TestStudent2_Playlist();
 		Student TestStudent2 = new Student("TestStudent2", testStudent2Playlist.StudentPlaylist());
 		assertEquals("TestStudent2", TestStudent2.getName());
-	}
+	}   
 	
 	//Module 6 - Add your unit test case here to check for your profile after you have added it to the StudentList
 	
