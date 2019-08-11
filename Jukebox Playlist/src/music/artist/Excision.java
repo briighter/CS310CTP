@@ -12,7 +12,7 @@ public class Excision {
     }
 
     // Made this get songs since the class name defines that it is Excision. This will allow for easy iteration through
-    // the artists if needed in the future (I.E. for each artist getSongs()).
+    // the artists if needed in the future (I.E. for› each artist getSongs()).
     public ArrayList<Song> getSongs() {
 
         albumTracks = new ArrayList<Song>();                              // Instantiate the album so we can populate it below

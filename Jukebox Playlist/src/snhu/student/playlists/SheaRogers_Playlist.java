@@ -21,7 +21,10 @@ public class SheaRogers_Playlist {
         // Instantiate the artist class
         Excision excisionBand = new Excision();
         // This enables me to only have to add a song in to the Excision list to add it to the playlist
-        playlist.addAll(excisionBand.getSongs());// Add all songs from Excision to the playlist
+        playlist.addAll(excisionBand.getSongs()); // Add all songs from Excision to the playlist
+
+        /** Other individual songs **/
+
 
         return playlist;
     }
