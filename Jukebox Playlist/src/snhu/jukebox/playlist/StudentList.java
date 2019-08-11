@@ -53,6 +53,12 @@ public class StudentList {
 			   JustinRooks_Playlist justinRooksPlaylist = new JustinRooks_Playlist();
 			   Student JustinRooks = new Student("JustinRooks", justinRooksPlaylist.StudentPlaylist());
 			   return JustinRooks;
+			
+		   // Adds student Ryan Sampson's playlist so it can be selected.   
+		   case "RyanSampson_Playlist":
+			   RyanSampson_Playlist ryanSampsonPlaylist = new RyanSampson_Playlist();
+			   Student RyanSampson = new Student("RyanSampson", ryanSampsonPlaylist.StudentPlaylist());
+			   return RyanSampson;
 
 		}
 		return emptyStudent;

@@ -74,4 +74,11 @@ public class StudentTest {
 		assertEquals("JustinRooks", JustinRooks.getName());
 	}
 	
+	@Test
+	public void testGetStudent4Profile() {
+		RyanSampson_Playlist testStudent4Playlist = new RyanSampson_Playlist();
+		Student RyanSampson = new Student("JustinRooks", testStudent4Playlist.StudentPlaylist());
+		assertEquals("JustinRooks", RyanSampson.getName());
+	}
+	
 }
