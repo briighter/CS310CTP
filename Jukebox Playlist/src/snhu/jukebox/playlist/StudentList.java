@@ -19,7 +19,7 @@ public class StudentList {
 		String StudentName2 = "TestStudent2Name";
 		studentNames.add(StudentName2);
 		
-		String StudentName3 = "William Scott Leischner"; //Added My name
+		String StudentName3 = "WilliamScottLeischner"; //Added My name
 		studentNames.add(StudentName3);
 		
 		//Module 5 Code Assignment
