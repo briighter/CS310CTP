@@ -22,7 +22,10 @@ public class StudentList {
 		String StudentName3 = "WilliamScottLeischner"; //Added My name
 		studentNames.add(StudentName3);
 		
+<<<<<<< HEAD
 		
+=======
+>>>>>>> branch 'ArtistList_William_Leischner' of https://bitbucket.org/Dr_Manning/cs310-j6420-jukebox-playlist/src/master/
 		return studentNames;
 	}
 
@@ -40,9 +43,12 @@ public class StudentList {
 			   Student TestStudent2 = new Student("TestStudent2", testStudent2Playlist.StudentPlaylist());
 			   return TestStudent2;
 			   
+		   case "WilliamScottLeischner_Playlist":
+			   WilliamScottLeischner_Playlist williamScottLeischner_Playlist = new WilliamScottLeischner_Playlist();
+			   Student WilliamScottLeischner = new Student("WilliamScottLeischner_Playlist", williamScottLeischner_Playlist.StudentPlaylist());
+			   return WilliamScottLeischner;
+			  
 			   
-		   //Module 6 Code Assignment - Add your own case statement for your profile. Use the above case statements as a template.
-
 		}
 		return emptyStudent;
 	}

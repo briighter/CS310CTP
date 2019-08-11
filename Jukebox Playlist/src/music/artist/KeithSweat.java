@@ -12,7 +12,7 @@ public class KeithSweat {
     }
     
     public ArrayList<Song> getkeithSweatsSongs() {
-    	                                                                        //By William Leischner
+    	                                                                        // By William Leischner
     	 albumTracks = new ArrayList<Song>();                                   //Instantiate the album so we can populate it below
     	 Song track1 = new Song("Nobody", "Keith Sweat");                       //Create a song
          Song track2 = new Song("Twisted", "Keith Sweat");                      //Create another song

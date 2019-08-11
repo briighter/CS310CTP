@@ -33,7 +33,7 @@ public class JukeboxTest {
 	}
 	
 	@Test
-	public void testGetUshersAlbumSize() throws NoSuchFieldException, SecurityException { //by William Leischner
+	public void testGetUshersAlbumSize() throws NoSuchFieldException, SecurityException {  //by William Leischner
 		 Usher usher = new Usher();
 		 ArrayList<Song> ushersTracks = new ArrayList<Song>();
 		 ushersTracks = usher.getUshersSongs();
@@ -41,7 +41,7 @@ public class JukeboxTest {
 	}
 	
 	@Test
-	public void testGetKeithSweatsAlbumSize() throws NoSuchFieldException, SecurityException { //by William Leischner
+	public void testGetKeithSweatsAlbumSize() throws NoSuchFieldException, SecurityException {  //by William Leischner
 		 KeithSweat keithSweat = new KeithSweat();
 		 ArrayList<Song> keithSweatsTracks = new ArrayList<Song>();
 		 keithSweatsTracks = keithSweat.getkeithSweatsSongs();
