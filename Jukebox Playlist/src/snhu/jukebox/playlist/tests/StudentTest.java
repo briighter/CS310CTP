@@ -36,7 +36,7 @@ public class StudentTest {
 		List<String> studentNames = new ArrayList<String>();							//create variable for student list of names
 		StudentList studentList = new StudentList();									//instantiate the StudentList object so we can access it's methods and properties
 		studentNames = studentList.getStudentsNames();									//populate the studentNames list with the actual values in the StudentsList object
-		assertEquals("ccooke", studentNames.get(2));	
+		assertEquals("CCooke", studentNames.get(2));	
 	}
 	
 	
@@ -58,5 +58,11 @@ public class StudentTest {
 	}
 	
 	//Module 6 - Add your unit test case here to check for your profile after you have added it to the StudentList
+	@Test
+	public void testGetCCookeProfile() {
+		CCooke_Playlist cCookePlaylist = new CCooke_Playlist();
+		Student CCooke = new Student("CCooke", cCookePlaylist.StudentPlaylist());
+		assertEquals("CCooke", CCooke.getName());
+	}
 	
 }

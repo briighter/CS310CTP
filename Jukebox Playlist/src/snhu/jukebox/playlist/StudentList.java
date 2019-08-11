@@ -19,7 +19,8 @@ public class StudentList {
 		String StudentName2 = "TestStudent2Name";
 		studentNames.add(StudentName2);
 		
-		studentNames.add("ccooke");
+		String CCooke = "CCooke";
+		studentNames.add(CCooke);
 		
 		//Module 5 Code Assignment
 		//Add your name to create a new student profile
@@ -46,6 +47,10 @@ public class StudentList {
 			   
 			   
 		   //Module 6 Code Assignment - Add your own case statement for your profile. Use the above case statements as a template.
+		   case "CCooke_Playlist":
+			   CCooke_Playlist cCookePlaylist = new CCooke_Playlist();
+			   Student CCooke = new Student("CCooke", cCookePlaylist.StudentPlaylist());
+			   return CCooke;
 
 		}
 		return emptyStudent;
