@@ -21,11 +21,6 @@ public class StudentList {
 		
 		String StudentName3 = "WilliamScottLeischner"; //Added My name
 		studentNames.add(StudentName3);
-		
-<<<<<<< HEAD
-		
-=======
->>>>>>> branch 'ArtistList_William_Leischner' of https://bitbucket.org/Dr_Manning/cs310-j6420-jukebox-playlist/src/master/
 		return studentNames;
 	}
 
