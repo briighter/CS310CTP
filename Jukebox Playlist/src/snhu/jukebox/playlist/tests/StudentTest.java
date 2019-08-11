@@ -35,10 +35,9 @@ public class StudentTest {
 		List<String> studentNames = new ArrayList<String>();							//create variable for student list of names
 		StudentList studentList = new StudentList();									//instantiate the StudentList object so we can access it's methods and properties
 		studentNames = studentList.getStudentsNames();									//populate the studentNames list with the actual values in the StudentsList object
-		assertEquals("William Scott Leischner", studentNames.get(2));					//test case to see if the third value contains the name we expect
+		assertEquals("WilliamScottLeischner", studentNames.get(2));					    //test case to see if the third value contains the name we expect
 	}
 	
-	//Module 5 - Add your unit test case here to check for your name after you have added it to the StudentList
 	
 	
 	
@@ -47,16 +46,23 @@ public class StudentTest {
 	//Test each student profile to ensure it can be retrieved and accessed
 	@Test
 	public void testGetStudent1Profile() {
-		TestStudent1_Playlist testStudent1Playlist = new TestStudent1_Playlist();						//instantiating the variable for a specific student
-		Student TestStudent1 = new Student("TestStudent1", testStudent1Playlist.StudentPlaylist());		//creating populated student object
-		assertEquals("TestStudent1", TestStudent1.getName());											//test case pass/fail line - did the name match what you expected?
-	}
+		TestStudent1_Playlist testStudent1Playlist = new TestStudent1_Playlist();						                           //instantiating the variable for a specific student
+		Student TestStudent1 = new Student("TestStudent1", testStudent1Playlist.StudentPlaylist());		                           //creating populated student object
+		assertEquals("TestStudent1", TestStudent1.getName());											                           //test case pass/fail line - did the name match what you expected?
+	}                 
 	
 	@Test
 	public void testGetStudent2Profile() {
-		TestStudent2_Playlist testStudent2Playlist = new TestStudent2_Playlist();
-		Student TestStudent2 = new Student("TestStudent2", testStudent2Playlist.StudentPlaylist());
-		assertEquals("TestStudent2", TestStudent2.getName());
+		TestStudent2_Playlist testStudent2Playlist = new TestStudent2_Playlist();                                                  //instantiating the variable for a specific student
+		Student TestStudent2 = new Student("TestStudent2", testStudent2Playlist.StudentPlaylist());                                //creating populated student object
+		assertEquals("TestStudent2", TestStudent2.getName());                                                                      //test case pass/fail line - did the name match what you expected?
+	}
+	
+	@Test
+	public void testGetWilliamScottLeischnerProfile() {                                                                            //Created test case to test my Student Profile
+		WilliamScottLeischner_Playlist williamScottLeischnerPlaylist = new WilliamScottLeischner_Playlist();                       //instantiating the variable for a specific student   
+		Student WilliamScottLeischner = new Student("WilliamScottLeischner", williamScottLeischnerPlaylist.StudentPlaylist());     //creating populated student object
+		assertEquals("WilliamScottLeischner", WilliamScottLeischner.getName());                                                    //test case pass/fail line - did the name match what you expected?
 	}
 	
 	//Module 6 - Add your unit test case here to check for your profile after you have added it to the StudentList
