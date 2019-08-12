@@ -31,11 +31,11 @@ public class StudentTest {
 	}
 	
 	@Test
-	public void testGetStudentNameList3() {                                             //By William Leischner
+	public void testGetStudentNameList3() {                                            
 		List<String> studentNames = new ArrayList<String>();							//create variable for student list of names
 		StudentList studentList = new StudentList();									//instantiate the StudentList object so we can access it's methods and properties
 		studentNames = studentList.getStudentsNames();									//populate the studentNames list with the actual values in the StudentsList object
-		assertEquals("WilliamScottLeischner", studentNames.get(2));					    //test case to see if the third value contains the name we expect
+		assertEquals("Elizabeth Taylor", studentNames.get(2));					        //test case to see if the third value contains the name we expect
 	}
 	 // End Module 5
 
