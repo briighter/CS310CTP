@@ -19,8 +19,8 @@ public class StudentList {
 		String StudentName2 = "TestStudent2Name";
 		studentNames.add(StudentName2);
 		
-		String StudentName3 = "WilliamScottLeischner"; //Added My name
-		studentNames.add(StudentName3);
+		String ElizabethTaylor = "Elizabeth Taylor"; //Added my name as a new student
+		studentNames.add(ElizabethTaylor);
 		
 		//Module 5 Code Assignment
 		//Add your name to create a new student profile
