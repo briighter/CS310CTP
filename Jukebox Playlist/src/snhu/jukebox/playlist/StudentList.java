@@ -24,6 +24,8 @@ public class StudentList {
 		//Use template below and put your name in the areas of 'StudentName'
 		//String StudentName3 = "TestStudent3Name";
 		//studentNames.add(StudentName3);
+		String StudentName3 = "Jason Lima";
+		studentNames.add(StudentName3);
 		
 		return studentNames;
 	}
