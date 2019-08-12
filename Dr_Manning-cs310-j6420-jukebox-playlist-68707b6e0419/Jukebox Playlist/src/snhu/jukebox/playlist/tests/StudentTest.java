@@ -61,5 +61,10 @@ public class StudentTest {
 	}
 	
 	//Module 6 - Add your unit test case here to check for your profile after you have added it to the StudentList
-	
+	@Test
+	public void testGetCourtneyGliszczynski() {
+		CourtneyGliszczynski_Playlist CourtneyGliszczynskiPlaylist = new CourtneyGliszczynski_Playlist();
+		Student CourtneyGliszczynski = new Student("Courtney Gliszczynski", CourtneyGliszczynskiPlaylist.StudentPlaylist());
+		assertEquals("Courtney Gliszczynski", CourtneyGliszczynski.getName());
+	}
 }
