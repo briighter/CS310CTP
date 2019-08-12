@@ -32,19 +32,19 @@ public class JukeboxTest {
 		 assertEquals(3, adelesTracks.size());
 	}
 	@Test
-	public void testGetUshersAlbumSize() throws NoSuchFieldException, SecurityException { //by William Leischner
-		 Usher usher = new Usher();
-		 ArrayList<Song> ushersTracks = new ArrayList<Song>();
-		 ushersTracks = usher.getUshersSongs();
-		 assertEquals(3, ushersTracks.size());
+	public void testGetTaylorSwiftsAlbumSize() throws NoSuchFieldException, SecurityException { //Added Taylor Swift for test case
+		 TaylorSwift taylorSwift = new TaylorSwift();
+		 ArrayList<Song> taylorSwiftsTracks = new ArrayList<Song>();
+		 taylorSwiftsTracks = taylorSwift.getTaylorSwiftSongs();
+		 assertEquals(3, taylorSwiftsTracks.size());
 	}
 	
 	@Test
-	public void testGetKeithSweatsAlbumSize() throws NoSuchFieldException, SecurityException { //by William Leischner
-		 KeithSweat keithSweat = new KeithSweat();
-		 ArrayList<Song> keithSweatsTracks = new ArrayList<Song>();
-		 keithSweatsTracks = keithSweat.getkeithSweatsSongs();
-		 assertEquals(2, keithSweatsTracks.size());
+	public void testGetTheCranberriesAlbumSize() throws NoSuchFieldException, SecurityException { //Added Cranberries for test case
+		 TheCranberries theCranberries = new TheCranberries();
+		 ArrayList<Song> theCranberriesTracks = new ArrayList<Song>();
+		 theCranberriesTracks = theCranberries.getCranberriesSongs();
+		 assertEquals(2, theCranberriesTracks.size());
 	}
 
 	
