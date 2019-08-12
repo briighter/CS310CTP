@@ -47,5 +47,19 @@ public class JukeboxTest {
 		 assertEquals(2, keithSweatsTracks.size());
 	}
 
+	@Test
+	public void testGetIronMaidenAlbumSize() throws NoSuchFieldException, SecurityException { //by Kevin DeRespino
+		IronMaiden ironMaiden = new IronMaiden();
+		ArrayList<Song> ironMaidenTracks = new ArrayList<Song>();
+		ironMaidenTracks = ironMaiden.getIronMaidenSongs();
+		assertEquals(2, ironMaidenTracks.size());
+	}
 	
+	@Test
+	public void testGetJudasPriestAlbumSize() throws NoSuchFieldException, SecurityException { //by Kevin DeRespino
+		JudasPriest judasPriest = new JudasPriest();
+		 ArrayList<Song> judasPriestTracks = new ArrayList<Song>();
+		 judasPriestTracks = judasPriest.getJudasPriestSongs();
+		 assertEquals(3, judasPriestTracks.size());
+	}
 }

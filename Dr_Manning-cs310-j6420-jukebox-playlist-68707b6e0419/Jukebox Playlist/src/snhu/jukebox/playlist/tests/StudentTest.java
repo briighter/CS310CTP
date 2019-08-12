@@ -37,10 +37,18 @@ public class StudentTest {
 		studentNames = studentList.getStudentsNames();									//populate the studentNames list with the actual values in the StudentsList object
 		assertEquals("WilliamScottLeischner", studentNames.get(2));					    //test case to see if the third value contains the name we expect
 	}
+	
+	@Test
+	public void testGetStudentNameList4() {                                             
+		List<String> studentNames = new ArrayList<String>();							//create variable for student list of names
+		StudentList studentList = new StudentList();									//instantiate the StudentList object so we can access it's methods and properties
+		studentNames = studentList.getStudentsNames();									//populate the studentNames list with the actual values in the StudentsList object
+		assertEquals("KevinDeRespino", studentNames.get(3));					    	//test case to see if the third value contains the name we expect
+	}
 	 // End Module 5
 
 	//Module 5 - Add your unit test case here to check for your name after you have added it to the StudentList
-	
+
 	
 	
 	
