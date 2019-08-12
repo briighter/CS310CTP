@@ -19,7 +19,7 @@ public class StudentList {
 		String StudentName2 = "TestStudent2Name";
 		studentNames.add(StudentName2);
 		
-		String ElizabethTaylor = "Elizabeth Taylor"; //Added my name as a new student
+		String ElizabethTaylor = "ElizabethTaylor"; //Added my name as a new student
 		studentNames.add(ElizabethTaylor);
 		
 		//Module 5 Code Assignment
@@ -44,6 +44,11 @@ public class StudentList {
 			   TestStudent2_Playlist testStudent2Playlist = new TestStudent2_Playlist();
 			   Student TestStudent2 = new Student("TestStudent2", testStudent2Playlist.StudentPlaylist());
 			   return TestStudent2;
+			   
+		   case "ElizabethTaylor_Playlist":
+			   ElizabethTaylor_Playlist elizabethTaylorPlaylist = new ElizabethTaylor_Playlist();
+			   Student ElizabethTaylor = new Student("ElizabethTaylor", elizabethTaylorPlaylist.StudentPlaylist());
+			   return ElizabethTaylor;
 		
 			   
 			   
