@@ -16,12 +16,14 @@ public class KevinDeRespino_Playlist {
 	ArrayList<Song> ironMaidenTracks = new ArrayList<Song>();
 	IronMaiden ironMaiden = new IronMaiden();
 	
+	//Gets songs from ironmaiden class
 	ironMaidenTracks = ironMaiden.getIronMaidenSongs();
     
     //Judas Priest
     ArrayList<Song> judasPriestTracks = new ArrayList<Song>();
     JudasPriest judasPriest = new JudasPriest();
 	
+    //Gets songs from judaspriest class
     judasPriestTracks = judasPriest.getJudasPriestSongs();
 	
     //Adds songs to play list
@@ -30,7 +32,6 @@ public class KevinDeRespino_Playlist {
 	playlist.add(judasPriestTracks.get(0));
 	playlist.add(judasPriestTracks.get(1));
 	playlist.add(judasPriestTracks.get(2));
-	
 	
     return playlist;
 	}

@@ -45,7 +45,7 @@ public class StudentList {
 			   TestStudent2_Playlist testStudent2Playlist = new TestStudent2_Playlist();
 			   Student TestStudent2 = new Student("TestStudent2", testStudent2Playlist.StudentPlaylist());
 			   return TestStudent2;
-			   
+			//Added case for Kevin DeRespino's playlist. Reads songs from KevinDeRespino_Playlist class  
 		   case "KevinDeRespino_Playlist":
 			   KevinDeRespino_Playlist KevinDeRespinoPlaylist = new KevinDeRespino_Playlist();
 			   Student KevinDeRespino = new Student("Kevin DeRespino", KevinDeRespinoPlaylist.StudentPlaylist());
