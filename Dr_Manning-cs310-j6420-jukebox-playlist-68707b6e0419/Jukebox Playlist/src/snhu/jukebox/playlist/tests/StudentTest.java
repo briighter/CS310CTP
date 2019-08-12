@@ -30,13 +30,8 @@ public class StudentTest {
 		assertEquals("TestStudent2Name", studentNames.get(1));							//test case to see if the second value contains the name we expect
 	}
 	
-	//Module 5 - Add your unit test case here to check for your name after you have added it to the StudentList
 	
 	
-	
-	
-	//Module 6 Test Case Area
-	//Test each student profile to ensure it can be retrieved and accessed
 	@Test
 	public void testGetStudent1Profile() {
 		TestStudent1_Playlist testStudent1Playlist = new TestStudent1_Playlist();						//instantiating the variable for a specific student
@@ -57,6 +52,5 @@ public class StudentTest {
 		assertEquals("WilliamScottLeischner", WilliamScottLeischner.getName());
 	}
 	
-	//Module 6 - Add your unit test case here to check for your profile after you have added it to the StudentList
 	
 }
