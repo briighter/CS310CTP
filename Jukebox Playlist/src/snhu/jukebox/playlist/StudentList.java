@@ -19,8 +19,8 @@ public class StudentList {
 		String StudentName2 = "TestStudent2Name";
 		studentNames.add(StudentName2);
 		
-		String StudentName3 = "CharettaFrierson"; // Added Name to Student List
-		studentNames.add(StudentName3);
+		String CharettaFrierson = "CharettaFrierson"; // Added Name to Student List
+		studentNames.add(CharettaFrierson);
 		
 	
 		//Module 5 Code Assignment
@@ -47,8 +47,8 @@ public class StudentList {
 			   return TestStudent2;
 			   
 		   case "CharettaFrierson_Playlist":
-			   CharettaFrierson_Playlist CharettaFriersonPlaylist = new CharettaFrierson_Playlist();
-			   Student CharettaFrierson = new Student("CharettaFrierson", CharettaFriersonPlaylist.StudentPlaylist());  //added Student playlist
+			   CharettaFrierson_Playlist charettaFriersonPlaylist = new CharettaFrierson_Playlist();
+			   Student CharettaFrierson = new Student("CharettaFrierson", charettaFriersonPlaylist.StudentPlaylist());  //added Student playlist
 			   return CharettaFrierson;
 			   
 			   

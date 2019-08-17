@@ -32,4 +32,24 @@ public class JukeboxTest {
 		 assertEquals(3, adelesTracks.size());
 	}
 	
+	/*
+	 * testGetMetronomysAlbumSize() and testGetSantigoldsAlbumSize() added for module5
+	 * by Charetta Frierson to test the album sizes for these two newly added artists.
+	 */
+	@Test
+	public void testGetSantigoldsAlbumSize() throws NoSuchFieldException, SecurityException {
+		 Santigold santigold = new Santigold();
+		 ArrayList<Song> santigoldTracks = new ArrayList<Song>();
+		 santigoldTracks = santigold.getSantigoldsSongs();
+		 assertEquals(5, santigoldTracks.size());
+	}
+	
+	@Test
+	public void testGetMetronomyAlbumSize() throws NoSuchFieldException, SecurityException {
+		 Metronomy metronomy = new Metronomy();
+		 ArrayList<Song> metronomysTracks = new ArrayList<Song>();
+		 metronomysTracks = metronomy.getMetronomysSongs();
+		 assertEquals(3, metronomysTracks.size());
+	}
+
 }
