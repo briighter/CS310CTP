@@ -29,9 +29,26 @@ public class JukeboxTest {
 		 Adele adele = new Adele();
 		 ArrayList<Song> adelesTracks = new ArrayList<Song>();
 		 adelesTracks = adele.getAdelesSongs();
-		 assertEquals(3, adelesTracks.size());
+		 assertEquals(3, adelesTracks.size());		 
 	}
 	
+	@Test
+	public void testGetBlackSabbathAlbumSize() throws NoSuchFieldException, SecurityException {
+		 BlackSabbath blacksabbath = new BlackSabbath();
+		 ArrayList<Song> blacksabbathTracks = new ArrayList<Song>();
+		 blacksabbathTracks = blacksabbath.getBlackSabbathSongs();
+		 assertEquals(3, blacksabbathTracks.size());
+	}
+	
+	@Test
+	public void testGetTheBandAlbumSize() throws NoSuchFieldException, SecurityException {
+		 TheBand theband = new TheBand();
+		 ArrayList<Song> thebandTracks = new ArrayList<Song>();
+		 thebandTracks = theband.getTheBandSongs();
+		 assertEquals(3, thebandTracks.size());
+	}
+	
+
 	@Test
 	public void testGetTiestoAlbumSize() throws NoSuchFieldException, SecurityException {
 		 Tiesto tiesto = new Tiesto();
@@ -46,5 +63,5 @@ public class JukeboxTest {
 		 aviciiTracks = avicii.getAviciiSongs();
 		 assertEquals(5, aviciiTracks.size());
 	}
-	
 }
+

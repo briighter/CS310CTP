@@ -25,6 +25,9 @@ public class StudentList {
 		String StudentName3 = "Bilal Elezi";
 		studentNames.add(StudentName3);
 		
+		String StudentName4 = "John deLuccia";
+		studentNames.add(StudentName4);
+		
 		return studentNames;
 	}
 
@@ -49,6 +52,12 @@ public class StudentList {
 			   BilalElezi_Playlist Bilal_Playlist = new BilalElezi_Playlist();
 			   Student MyProf = new Student("Bilal Elezi", Bilal_Playlist.StudentPlaylist());
 			   return MyProf;
+			   
+		   case "JohndeLuccia_Playlist":
+			   JohndeLuccia_Playlist JohndeLuccia_Playlist = new JohndeLuccia_Playlist();
+			   Student John_deLuccia = new Student("John deLuccia", JohndeLuccia_Playlist.StudentPlaylist());
+			   return John_deLuccia;
+
 
 		}
 		return emptyStudent;
