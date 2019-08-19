@@ -48,8 +48,8 @@ public class StudentList {
 			   //Adding test case for MiguelOvalles // 
 
 		   case "MiguelOvalles_Playlist":
-			   MiguelOvalles_Playlist MiguelOvallesPlaylist = new MiguelOvalles_Playlist();
-			   Student MiguelOvalles = new Student("MiguelOvalles", MiguelOvallesPlaylist.StudentPlaylist());
+			   MiguelOvalles_Playlist MiguelOvalles_Playlist = new MiguelOvalles_Playlist();
+			   Student MiguelOvalles = new Student("MiguelOvalles", MiguelOvalles_Playlist.StudentPlaylist());
 			   return MiguelOvalles;
 		}
 		return emptyStudent;
