@@ -12,7 +12,7 @@ public class MiguelOvalles_Playlist {
 	
 	LinkedList<PlayableSong> playlist = new LinkedList<PlayableSong>();
 	ArrayList<Song> NasTracks = new ArrayList<Song>();
-    Nas Nas = new Nas();
+    Nas Nas = new Nas();                                                                      //Error will remain until merged with Module Five Code
 	
     NasTracks = Nas.getNasSongs();
 	
@@ -20,7 +20,7 @@ public class MiguelOvalles_Playlist {
 	playlist.add(NasTracks.get(1));
 	
 	
-    BobMarley BobMarley = new BobMarley();
+    BobMarley BobMarley = new BobMarley();                                                    //Error will remain until merged with Module Five Code
 	ArrayList<Song> BobMarleyTracks = new ArrayList<Song>();
     BobMarleyTracks = BobMarley.getImagineDragonsSongs();
 	
@@ -30,7 +30,7 @@ public class MiguelOvalles_Playlist {
 	
 	
 	
-    Usher Usher = new Usher();
+    Usher Usher = new Usher();                                                                //Error will remain until merged with Module Five Code of classmate
 	ArrayList<Song> UsherTracks = new ArrayList<Song>();
     UsherTracks = Usher.getUsherSongs();
 	
