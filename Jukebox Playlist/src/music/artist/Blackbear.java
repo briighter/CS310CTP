@@ -11,7 +11,7 @@ public class Blackbear {
     public Blackbear() {
     }
     
-    public ArrayList<Song> getBeatlesSongs() {
+    public ArrayList<Song> getBlackbearSongs() {
     	
     	 albumTracks = new ArrayList<Song>();                                   //Instantiate the album so we can populate it below
     	 Song track1 = new Song("Indecision", "Blackbear");             		//Create a song
