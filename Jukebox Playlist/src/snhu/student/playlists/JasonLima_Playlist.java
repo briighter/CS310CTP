@@ -18,6 +18,7 @@ public class JasonLima_Playlist {
 	
 	playlist.add(blackbearTracks.get(0));
 	playlist.add(blackbearTracks.get(1));
+	playlist.add(blackbearTracks.get(2));
 	
 	
 	ArrayList<Song> tokyoPoliceClubTracks = new ArrayList<Song>();
