@@ -10,6 +10,7 @@ public class ElizabethTaylor_Playlist {
     
 	public LinkedList<PlayableSong> StudentPlaylist(){
 	
+	//Added taylor Swift tracks in place of Beatles from copied TestStudent	
 	LinkedList<PlayableSong> playlist = new LinkedList<PlayableSong>();
 	ArrayList<Song> taylorSwiftsTracks = new ArrayList<Song>();
     TaylorSwift taylorSwift = new TaylorSwift();
@@ -20,7 +21,7 @@ public class ElizabethTaylor_Playlist {
 	playlist.add(taylorSwiftsTracks.get(1));
 	playlist.add(taylorSwiftsTracks.get(2));
 	
-	
+	//Added Cranberries Tracks and information
     TheCranberries theCranberriesBand = new TheCranberries();
 	ArrayList<Song> theCranberriesTracks = new ArrayList<Song>();
     theCranberriesTracks = theCranberriesBand.getCranberriesSongs();
