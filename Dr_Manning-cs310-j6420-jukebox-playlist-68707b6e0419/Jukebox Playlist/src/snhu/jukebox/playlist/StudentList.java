@@ -44,7 +44,8 @@ public class StudentList {
 			   TestStudent2_Playlist testStudent2Playlist = new TestStudent2_Playlist();
 			   Student TestStudent2 = new Student("TestStudent2", testStudent2Playlist.StudentPlaylist());
 			   return TestStudent2;
-			   
+		
+		//Added my information as another case	   
 		   case "ElizabethTaylor_Playlist":
 			   ElizabethTaylor_Playlist elizabethTaylorPlaylist = new ElizabethTaylor_Playlist();
 			   Student ElizabethTaylor = new Student("ElizabethTaylor", elizabethTaylorPlaylist.StudentPlaylist());
@@ -52,7 +53,7 @@ public class StudentList {
 		
 			   
 			   
-		   //Module 6 Code Assignment - Add your own case statement for your profile. Use the above case statements as a template.
+		   
 
 		}
 		return emptyStudent;
