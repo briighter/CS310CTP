@@ -11,7 +11,7 @@ public class TokyoPoliceClub {
     public TokyoPoliceClub() {
     }
     
-    public ArrayList<Song> getTokyoPoliceClubSongs() {
+    public ArrayList<Song> getTokyoPoliceClubsSongs() {
     	
     	 albumTracks = new ArrayList<Song>();                                   //Instantiate the album so we can populate it below
     	 Song track1 = new Song("Bambi", "Tokyo Police Club");             		//Create a song

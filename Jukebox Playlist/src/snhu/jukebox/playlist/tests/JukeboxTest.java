@@ -32,4 +32,22 @@ public class JukeboxTest {
 		 assertEquals(3, adelesTracks.size());
 	}
 	
+	// Improvement: Added test for the new music artist and playlist
+	@Test
+	public void testGetBlackbearAlbumSize() throws NoSuchFieldException, SecurityException {
+		 Blackbear blackbear = new Blackbear();
+		 ArrayList<Song> blackbearsTracks = new ArrayList<Song>();
+		 blackbearsTracks = blackbear.getBlackbearsSongs();
+		 assertEquals(3, blackbearsTracks.size());
+	}
+	
+	// Improvement: Added test for the new music artist and playlist
+	@Test
+	public void testGetToykoPoliceClubAlbumSize() throws NoSuchFieldException, SecurityException {
+		TokyoPoliceClub tokyoPoliceClub = new TokyoPoliceClub();
+		 ArrayList<Song> tokyoPoliceClubsTracks = new ArrayList<Song>();
+		 tokyoPoliceClubsTracks = tokyoPoliceClub.getTokyoPoliceClubsSongs();
+		 assertEquals(3, tokyoPoliceClubsTracks.size());
+	}
+	
 }

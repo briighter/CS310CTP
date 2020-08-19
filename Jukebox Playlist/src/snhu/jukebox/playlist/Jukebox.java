@@ -6,7 +6,7 @@ import java.util.Queue;
 
 public class Jukebox {
     
-    static Queue<PlayableSong> playlist = new LinkedList<PlayableSong>();
+    static Queue<PlayableSong> playlist = new LinkedList<PlayableSong>();				// Create empty playlist object
     PlayableSong current;
     
     Jukebox() {

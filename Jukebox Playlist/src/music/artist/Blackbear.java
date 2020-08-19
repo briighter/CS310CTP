@@ -11,7 +11,8 @@ public class Blackbear {
     public Blackbear() {
     }
     
-    public ArrayList<Song> getBlackbearSongs() {
+    // Improvement: Missing posessive artist got get call
+    public ArrayList<Song> getBlackbearsSongs() {
     	
     	 albumTracks = new ArrayList<Song>();                                   //Instantiate the album so we can populate it below
     	 Song track1 = new Song("Indecision", "Blackbear");             		//Create a song
