@@ -2,6 +2,8 @@ package snhu.jukebox.playlist;
 
 import java.util.LinkedList;
 import java.util.Queue;
+import java.awt.*;
+import javax.swing.*;
 
 public class JukeboxPlayer {
          
